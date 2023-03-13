@@ -46,6 +46,7 @@ pub mod render;
 pub mod types;
 
 pub use crate::types::{Color, EcLevel, QrResult, Version};
+pub use image;
 
 use crate::cast::As;
 use crate::render::{Pixel, Renderer};
