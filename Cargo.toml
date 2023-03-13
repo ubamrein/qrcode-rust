@@ -28,7 +28,7 @@ checked_int_cast = "1"
 image = "0.23"
 
 [features]
-default = ["image", "svg"]
+default = ["svg"]
 bench = []
 svg = []
 
@@ -37,7 +37,6 @@ name = "qrencode"
 
 [[example]]
 name = "encode_image"
-required-features = ["image"]
 
 [[example]]
 name = "encode_string"
